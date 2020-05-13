@@ -19,82 +19,67 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-  
-
-p{
-    font-size: 15px;
-    padding: 20px;
-    line-height: 1.9;
-}
- h1, h2{
-    font-size: 30px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bolder;
-    line-height: 1.9;
- }
-
- .footer-content{
-    font-family: 'Raleway';
-    line-height: 2;
-    text-align: center;
- }
-
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 20px;
-}
-
 body {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-#home{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 20px;
-}
-
-.item{
-    padding: 5px 20px;
-    background: lightgrey;
-    border: 1px solid gray;
-    margin: 10px;
-    border-radius: 5px;
-    display: inline-block;
+    font-size: 20px;
     color: black;
+    background-color: rgb(247, 247, 247);
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    
+}
+h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
 }
 
-.item:hover{
-    background: #e3e3e3;
+.gallery{
+    display:flex;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+.first-section{
+    color: black;
+    background-color:rgb(160, 169, 180);
+    padding:10%;
+    line-height: 1.5;
+    letter-spacing: 2px;
 }
 .last-section{
-    font-family: 'Raleway';
-    line-height: 2;
+    color: black;
+    background-color:rgb(160, 169, 180);
+    padding:5%;
+    line-height: 1.5;
+    letter-spacing: 2px;
     text-align: center;
- }
-
- .gallery:hover{
-    background: #e3e3e3;
- }
-
- .social-media{
+}
+.main-image{
+    max-width: 100%;
+    height: auto;
+}
+.footer-content, .social-media{
     text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 20px;
-    font-size: 15px;
- }
+    background-color:rgb(160, 169, 180);
+    letter-spacing: 2;
+    line-height: 1.5;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: rgb(10, 9, 9);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block
+}
+.links{
+    text-align: center;
+    line-height: 2.5;
+}
 
- img {
-    border-radius: 10px;
-  
-  }
-  
